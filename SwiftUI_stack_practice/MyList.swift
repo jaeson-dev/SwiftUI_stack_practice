@@ -36,7 +36,6 @@ struct MyList: View {
 //            }
 //        }
         List{
-            
             Section(header: Text("오늘 할 일")
                         .font(.system(.headline))
                         .foregroundColor(.black)

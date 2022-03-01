@@ -27,8 +27,12 @@ struct ContentView: View {
                         
                         Spacer()
                         
+                        NavigationLink(destination: MyProfileView(isNavigationBarHidden: self.$isNavigationBarHidden)){
+                        
                         Image(systemName: "person.crop.circle.fill")
                             .font(.largeTitle)
+                            .foregroundColor(.black)
+                        }
                     }
                     
                     Text("정대리 할 일 목록")
